@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">InventoryAppStage2</string>
+    <string name="title_activity_editor">EditorActivity</string>
+
+    <!-- Titles for the editor activity -->
+    <string name="editor_activity_title_new_book">Add a Book</string>
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <!-- Title text for the empty view -->
+    <string name="empty_view_title_text">There are no books listed yet...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a book-->
+    <string name="empty_view_subtitle_text">Get started by adding a book</string>
+
+    <!-- Label for overflow menu option that deletes all book data in the app-->
+    <string name="action_delete_all_entries">Delete All Books</string>
+
+    <!-- Hints for the EditText Fields in the editor -->
+    <string name="hint_book_title">Title</string>
+    <string name="hint_book_author">Author</string>
+    <string name="hint_book_price">Price €</string>
+    <string name="hint_book_quantity">In Stock Quantity</string>
+    <string name="hint_book_supplier_name">Supplier Name</string>
+    <string name="hint_book_supplier_phonenumber">Supplier Phonenumber</string>
+
+    <!-- Names for the Save and Delete buttons in the menu -->
+    <string name="save_button">Save</string>
+    <string name="delete_button">Delete</string>
+
+    <!-- Name for the call button -->
+    <string name="call_button">CALL</string>
+
+    <!-- Insert messages -->
+    <string name="editor_insert_book_failed">Insert Book Failed!</string>
+    <string name="editor_insert_book_successful">Insert Book Successful!</string>
+
+    <!-- Update messages -->
+    <string name="editor_update_book_failed">Update Book Failed!</string>
+    <string name="editor_update_book_successful">Update Book Successful!</string>
+
+    <!-- Delete messages -->
+    <string name="editor_delete_book_failed">Delete Book Failed!</string>
+    <string name="editor_delete_book_successful">Delete Book Successful!</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog button text for the option to keep editing the current book -->
+    <string name="decrement_message">Negative quantity is not allowed!</string>
+
+    <!-- Tells the user the book is out of stock-->
+    <string name="out_of_stock_message">This book is out of stock</string>
+
+    <!-- Tells the user empty fields are not allowed when inserting the book -->
+    <string name="empty_fields_message">Empty fields are not allowed, enter data in all fields</string>
+
+
+</resources>

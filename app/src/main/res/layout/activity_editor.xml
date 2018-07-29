@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/text_view_padding"
+    tools:context=".EditorActivity">
+
+
+    <!-- Title field -->
+    <EditText
+        android:id="@+id/edit_book_title"
+        style="@style/EditorFieldStyle"
+        android:hint="@string/hint_book_title"
+        android:inputType="textCapWords" />
+
+    <!-- Author field -->
+    <EditText
+        android:id="@+id/edit_book_author"
+        style="@style/EditorFieldStyle"
+        android:hint="@string/hint_book_author"
+        android:inputType="textCapWords" />
+
+    <!-- Price field -->
+    <EditText
+        android:id="@+id/edit_book_price"
+        style="@style/EditorFieldStyle"
+        android:hint="@string/hint_book_price"
+        android:inputType="textCapWords" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Decrement Button -->
+        <Button
+            android:id="@+id/decrement_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/button_padding"
+            android:text="-" />
+
+        <!-- Quantity field -->
+        <EditText
+            android:id="@+id/edit_book_quantity"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_book_quantity"
+            android:inputType="textCapWords" />
+
+        <!-- Increment Button -->
+        <Button
+            android:id="@+id/increment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/button_padding"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <!-- Supplier Name field -->
+    <EditText
+        android:id="@+id/edit_book_supplier_name"
+        style="@style/EditorFieldStyle"
+        android:hint="@string/hint_book_supplier_name"
+        android:inputType="textCapWords" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <!-- Supplier Phonenumber field -->
+        <EditText
+            android:id="@+id/edit_book_supplier_phonenumber"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_book_supplier_phonenumber"
+            android:inputType="textCapWords" />
+
+        <!-- Call Button -->
+        <Button
+            android:id="@+id/call_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/button_padding"
+            android:text="@string/call_button" />
+
+    </LinearLayout>
+
+</LinearLayout>
